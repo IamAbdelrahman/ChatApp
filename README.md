@@ -26,25 +26,25 @@ Supports user authentication, chat history, real-time messaging, and future exte
 ---
 
 ## 📂 Project Structure
-chat-app/
-│
-├── backend-dotnet/ # ASP.NET Core (Visual Studio)
-│ ├── ChatApp.API/ # Controllers (auth, history)
-│ ├── ChatApp.Domain/ # Entities & business rules
-│ ├── ChatApp.Infrastructure/ # DB, repositories
-│ ├── ChatApp.Application/ # Application services
-│ └── ChatApp.sln
-│
-├── backend-java/ # Spring Boot (IntelliJ/Eclipse)
-│ └── chat-service/ # WebSocket + real-time messaging
-│
-└── frontend-angular/ # Angular (VS Code)
-├── src/app/
-│ ├── auth/ # Login, register, change password
-│ ├── chat/ # Chat list + chat window
-│ ├── core/ # Shared services (auth, websocket)
-│ ├── shared/ # Reusable components
-│ └── app.module.ts
+
+- **backend-dotnet/** (ASP.NET Core - Visual Studio)  
+  - ChatApp.API/ → Controllers (auth, history)  
+  - ChatApp.Domain/ → Entities & business rules  
+  - ChatApp.Infrastructure/ → DB, repositories  
+  - ChatApp.Application/ → Application services  
+  - ChatApp.sln  
+
+- **backend-java/** (Spring Boot - Java)  
+  - chat-service/ → WebSocket + real-time messaging  
+
+- **frontend-angular/** (Angular - VS Code)  
+  - src/app/  
+    - auth/ → Login, register, change password  
+    - chat/ → Chat list + chat window  
+    - core/ → Shared services (auth, websocket)  
+    - shared/ → Reusable components  
+    - app.module.ts  
+
 ---
 
 ## 🏗 Development Phases

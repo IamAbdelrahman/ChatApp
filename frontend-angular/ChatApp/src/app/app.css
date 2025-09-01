@@ -1,0 +1,15 @@
+.chat-container {
+  display: flex;
+  height: 100vh; /* ياخد طول الشاشة كله */
+}
+
+.chat-list {
+  width: 30%;       /* التلت تقريباً */
+  border-right: 1px solid #ddd;
+  overflow-y: auto; /* عشان لو الليست طويلة */
+}
+
+.chat-window {
+  flex: 1;          /* ياخد باقي المساحة */
+  overflow-y: auto; /* لو الرسائل كتيرة */
+}
